@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { images } from '../lib/assets'
 
 type Project = {
   id: string
@@ -15,40 +16,32 @@ const projects: Project[] = [
     room: 'Kitchen',
     location: 'Oakville',
     days: 10,
-    before:
-      'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=600&q=80&auto=format&fit=crop',
-    after:
-      'https://images.unsplash.com/photo-1556909114-f6e7ad7d4046?w=600&q=80&auto=format&fit=crop',
+    before: images.gallery.k1Before,
+    after: images.gallery.k1After,
   },
   {
     id: 'b1',
     room: 'Bathroom',
     location: 'Mississauga',
     days: 7,
-    before:
-      'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80&auto=format&fit=crop',
-    after:
-      'https://images.unsplash.com/photo-1620626011761-996317b1d101?w=600&q=80&auto=format&fit=crop',
+    before: images.gallery.b1Before,
+    after: images.gallery.b1After,
   },
   {
     id: 'k2',
     room: 'Kitchen',
     location: 'Brampton',
     days: 12,
-    before:
-      'https://images.unsplash.com/photo-1565538810644-b5bdb3300324?w=600&q=80&auto=format&fit=crop',
-    after:
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80&auto=format&fit=crop',
+    before: images.gallery.k2Before,
+    after: images.gallery.k2After,
   },
   {
     id: 'b2',
     room: 'Bathroom',
     location: 'Toronto',
     days: 9,
-    before:
-      'https://images.unsplash.com/photo-1507652313519-d4e9174996ef?w=600&q=80&auto=format&fit=crop',
-    after:
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80&auto=format&fit=crop',
+    before: images.gallery.b2Before,
+    after: images.gallery.b2After,
   },
 ]
 

@@ -1,3 +1,5 @@
+import { images } from '../lib/assets'
+
 const stats = [
   { value: '7–14', label: 'Day avg. remodel' },
   { value: '500+', label: 'Projects done' },
@@ -58,7 +60,7 @@ export default function Hero() {
           <div className="relative">
             <div className="overflow-hidden rounded-2xl border border-white/10 shadow-2xl shadow-black/50">
               <img
-                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d4046?w=800&q=80&auto=format&fit=crop"
+                src={images.heroKitchen}
                 alt="Modern renovated kitchen with clean countertops and cabinetry"
                 className="aspect-[4/3] w-full object-cover"
                 width={800}
